@@ -5,3 +5,6 @@ SwiftUIのUIアイデア集
 
 ## CustomTabBar
 タブバーのアニメーションです。
+
+## CircularProgressBar
+数値とプログレスバーを組み合わせました。
