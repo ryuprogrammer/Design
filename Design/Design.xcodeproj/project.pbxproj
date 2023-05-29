@@ -13,6 +13,7 @@
 		5A90B2252A223D7300F43BF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A90B2242A223D7300F43BF7 /* Preview Assets.xcassets */; };
 		5A90B22D2A2240DA00F43BF7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B22C2A2240DA00F43BF7 /* CustomTabBarView.swift */; };
 		5A90B2302A2241A300F43BF7 /* CustomTabBarView_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B22F2A2241A300F43BF7 /* CustomTabBarView_Tab.swift */; };
+		5A90B2322A24474F00F43BF7 /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90B2312A24474F00F43BF7 /* CircularProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5A90B2242A223D7300F43BF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A90B22C2A2240DA00F43BF7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		5A90B22F2A2241A300F43BF7 /* CustomTabBarView_Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView_Tab.swift; sourceTree = "<group>"; };
+		5A90B2312A24474F00F43BF7 /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				5A90B21F2A223D7100F43BF7 /* ContentView.swift */,
 				5A90B22C2A2240DA00F43BF7 /* CustomTabBarView.swift */,
+				5A90B2312A24474F00F43BF7 /* CircularProgressBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				5A90B2302A2241A300F43BF7 /* CustomTabBarView_Tab.swift in Sources */,
 				5A90B2202A223D7100F43BF7 /* ContentView.swift in Sources */,
 				5A90B21E2A223D7100F43BF7 /* DesignApp.swift in Sources */,
+				5A90B2322A24474F00F43BF7 /* CircularProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
