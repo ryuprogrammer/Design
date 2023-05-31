@@ -12,17 +12,19 @@ struct MovingScrolleView: View {
     @State private var offset = CGFloat.zero
     // もじ
     let sanpleText = "背景が動くよ"
-    let texts = sanpleText.split(separator: "")
     
     var body: some View {
         ZStack {
-            // 背景
+            // 背景（うごく）
             BackgroundView(offset: $offset)
             
             ScrollView {
                 VStack {
-                    ForEach(0..<sanpleText.count) { number in
-                        Text(sanpleText[number])
+                    ForEach(0..<20) { _ in
+                        Text(sanpleText)
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                            .padding(25)
                     }
                 }
                 .background(GeometryReader { proxy -> Color in
